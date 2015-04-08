@@ -10,12 +10,20 @@ Thanks to @sebmck for the implementation.
 
 Instead of using `_.extend(obj1, obj2...)` or `xtend(obj1, obj2...)` just use `Object.assign` in your code and include this plugin for Babel.
 
+Install:
+
 ```
 $ npm install babel babel-plugin-object-assign
+```
+
+Use:
+
+
+```
 $ babel --plugins object-assign script.js
 ```
 
-or
+or:
 
 ```js
 require("babel").transform("code", { plugins: ["object-assign"] });
