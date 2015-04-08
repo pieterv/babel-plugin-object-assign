@@ -1,2 +1,20 @@
-# babel-plugin-object-assign
-Babel plugin to replace Object.assign with the extends helper
+# Object.assign plugin for Babel
+
+Babel plugin that replaces `Object.assign()` with the extends helper.
+
+Useful to reduce the need for additional polyfills or libraries when you want something that extends objects in browsers without native support.
+
+## Usage
+
+Instead of using `_.extend(obj1, obj2...)` or `xtend(obj1, obj2...)` just use `Object.assign` in your code and include this plugin for Babel.
+
+```
+$ npm install babel babel-plugin-object-assign
+$ babel --plugins object-assign script.js
+```
+
+or
+
+```js
+require("babel").transform("code", { plugins: ["object-assign"] });
+```
