@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-object-assign",
+  "version": "0.0.0",
+  "description": "Babel plugin to replace Object.assign with the extends helper",
+  "main": "index.js",
+  "author": "Jed Watson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JedWatson/babel-plugin-object-assign.git"
+  },
+  "dependencies": {
+    "babel-core": "^5.0.10"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "object",
+    "assign",
+    "extend",
+    "polyfill"
+  ]
+}
